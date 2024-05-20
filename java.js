@@ -9,13 +9,17 @@ const macbook_image = document.querySelector('.macbook_image')
 
 
 color_wh.onclick = () => {
+    color_sg.classList.remove('active_color')
     color_wh.classList.add('active_color')
-    macbook_image.getAttribute('macbook_image')
+    macbook_image.getAttribute.src="/white.png"
+    
 }
 color_sg.onclick = () => {
+    
     color_sg.classList.add('active_color') 
     color_wh.classList.remove('active_color')
-    macbook_image.src = './spacegrey.png'
+    macbook_image.getAttribute.src="/spacegrey.png"
+    
 }
 
 data_512gb.onclick = () => {

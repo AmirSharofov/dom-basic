@@ -116,12 +116,13 @@
     font-weight: 500;
     font-size: 18px;
     margin-left: 11px; 
-    background-color: #0071E3;
-    color: white;
+    background-color: #0071E3 !important;
+    color: white !important;
 }
+    
 
 .active_data{
-    border: solid #007FFF;
+    border: solid #007FFF !important;
     width: 321px;
     height: 57px;
     border-radius: 10px;
