@@ -96,7 +96,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0px 20px 0px 20px;
-
+        cursor: pointer;
 
         p {
             font-weight: 600;
@@ -108,10 +108,27 @@
 }
 
 .active_color{
+    height: 42px;
+    width: 155px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 11px; 
     background-color: #0071E3;
     color: white;
 }
 
 .active_data{
     border: solid #007FFF;
+    width: 321px;
+    height: 57px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
 }
